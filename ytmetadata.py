@@ -3,7 +3,7 @@ from pytube import YouTube
 
 try:
     val = input("Enter your URL: ")
-    #yt_obj = YouTube('https://www.youtube.com/watch?v=d9U3w-2TI5o&list=PLtfRFndo6b7KC3jUBHDyLw3w2VqxzcYtm') 
+    #yt_obj = YouTube('https://www.youtube.com/watch?v=YwNlVeReXXc') 
     yt_obj = YouTube(str(val))
     print(f'Video Title is {yt_obj.title}')
     print(f'Video Length is {yt_obj.length} seconds')
