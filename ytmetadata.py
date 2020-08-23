@@ -1,6 +1,7 @@
 from pytube import YouTube
 
-
+#https://github.com/kagaya25/How-to-Getting-YouTube-Video-Metadata-Information
+#pip install pytube
 try:
     val = input("Enter your URL: ")
     #yt_obj = YouTube('https://www.youtube.com/watch?v=YwNlVeReXXc') 
